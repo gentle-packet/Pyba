@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="20" role="img" aria-label="Beyond Pink or Blue">
+  <title>Beyond Pink or Blue</title>
+
+  <defs>
+    <clipPath id="rounded">
+      <rect width="140" height="20" rx="3"></rect>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#rounded)">
+    <rect width="140" height="3.34" y="0" fill="#E40303"></rect>
+    <rect width="140" height="3.34" y="3.33" fill="#FF8C00"></rect>
+    <rect width="140" height="3.34" y="6.66" fill="#FFED00"></rect>
+    <rect width="140" height="3.34" y="9.99" fill="#008026"></rect>
+    <rect width="140" height="3.34" y="13.32" fill="#004DFF"></rect>
+    <rect width="140" height="3.35" y="16.65" fill="#750787"></rect>
+
+    <!-- Improves text contrast -->
+    <rect width="140" height="20" fill="#000" opacity=".22"></rect>
+  </g>
+
+  <text x="70" y="14" text-anchor="middle" font-family="Verdana, Geneva, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#fff">Beyond Pink or Blue</text>
+</svg>
