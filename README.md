@@ -11,7 +11,7 @@ A build simulator for Deadlock.
 [![License: GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-blue)](LICENSE)
 ![Python](https://img.shields.io/badge/python-3.12%2B-blue)
 ![Platform](https://img.shields.io/badge/platform-windows-lightgrey)
-![Beyond Pink or Blue](https://img.shields.io/badge/Beyond%20Pink%20or%20Blue-e5347c)
+![Beyond Pink or Blue](./assets/beyond-pink-or-blue.svg)
 ![Red](https://img.shields.io/badge/this%20repo%20is-red-red)
 
 [Download](https://github.com/gentle-packet/Pyba/releases/latest) · [Report a bug](https://github.com/gentle-packet/Pyba/issues) · [deadlock-eos engine](https://github.com/gentle-packet/deadlock-eos)
