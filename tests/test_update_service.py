@@ -99,5 +99,9 @@ def test_reverted_dir_no_longer_wins_discovery(user_dir, monkeypatch):
 
     assert data_mod.find_dumps_dir() == dumps
     revert_to_bundled()
-    # empty user dumps dir must fall through to the next candidate
-    assert data_mod.find_dumps_dir() != dumps
+    # empty user dumps dir must fall through to the next candidate; on a
+    # non-editable install with no bundled/sibling data there is none left
+    try:
+        assert data_mod.find_dumps_dir() != dumps
+    except FileNotFoundError:
+        pass
