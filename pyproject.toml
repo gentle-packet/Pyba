@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyba"
+dynamic = ["version"]
+description = "Fitting/build simulator for Deadlock, in the spirit of pyfa"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "GPL-3.0-or-later"
+dependencies = ["deadlock-eos", "pyside6>=6.7,<7"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-qt>=4.4"]
+
+[project.gui-scripts]
+pyba = "pyba.ui.__main__:main"
+
+[tool.hatch.version]
+path = "src/pyba/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pyba"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

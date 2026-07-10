@@ -1,0 +1,503 @@
+{
+ "hero_build": {
+  "hero_id": 6,
+  "hero_build_id": 393691,
+  "author_account_id": 393148161,
+  "last_updated_timestamp": 1779615552,
+  "publish_timestamp": 1779615552,
+  "name": "zxc | \u0441\u0432\u044f\u0442\u044b\u0435 \u0433\u0443\u0431\u044b (t.tv/qtarsis)",
+  "description": "/\u1420 > \u02d5 <\u30de \u208a\u02da\u22b9\u2661  \u044d\u0442\u043e\u0442 \u0431\u0438\u043b\u0434 \u043f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u043e \u043c\u0435\u043d\u044f\u0435\u0442\u0441\u044f \u043f\u043e\u0434 \u043c\u0435\u0442\u0443, \u043b\u0443\u0447\u0448\u0435 \u043e\u0431\u043d\u043e\u0432\u0438\u0442\u044c \u0435\u0433\u043e \u043f\u0435\u0440\u0435\u0434 \u0438\u0433\u0440\u043e\u0439",
+  "language": 8,
+  "version": 95,
+  "origin_build_id": 393379,
+  "tags": [
+   4072270083,
+   36498494,
+   3523480953
+  ],
+  "development_build": null,
+  "details": {
+   "mod_categories": [
+    {
+     "name": "1",
+     "width": 643.88574,
+     "height": 155.31429,
+     "description": "",
+     "mods": [
+      {
+       "ability_id": 1342610602,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 465043967,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": 97,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 1976391348,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": 94,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 3970837787,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": 93,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 2566692615,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 968099481,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": 92,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 1150006784,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      }
+     ],
+     "optional": null
+    },
+    {
+     "name": "",
+     "width": 381.6,
+     "height": 161.48572,
+     "description": "",
+     "mods": [
+      {
+       "ability_id": 1437614329,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 1644605047,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 2603935618,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 1378931225,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      }
+     ],
+     "optional": true
+    },
+    {
+     "name": "2",
+     "width": 833.1429,
+     "height": 175.88571,
+     "description": "",
+     "mods": [
+      {
+       "ability_id": 1292979587,
+       "annotation": "",
+       "required_flex_slots": null,
+       "sell_priority": 0,
+       "imbue_target_ability_id": 4072270083
+      },
+      {
+       "ability_id": 2447176615,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 395944548,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 3190916303,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 2951612397,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": 90,
+       "imbue_target_ability_id": 4072270083
+      },
+      {
+       "ability_id": 2081037738,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": 88,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 3261353684,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": 91,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 2717651715,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 3028234315,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      }
+     ],
+     "optional": null
+    },
+    {
+     "name": "",
+     "width": 193.37143,
+     "height": 154.28572,
+     "description": "",
+     "mods": [
+      {
+       "ability_id": 26002154,
+       "annotation": "",
+       "required_flex_slots": null,
+       "sell_priority": 0,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 3294954488,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      }
+     ],
+     "optional": true
+    },
+    {
+     "name": "3",
+     "width": 745.5086,
+     "height": 170.74286,
+     "description": "",
+     "mods": [
+      {
+       "ability_id": 3005970438,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 2519598785,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 3812615317,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 1250307611,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 1797283378,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 1427630806,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 915014646,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 951866250,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      }
+     ],
+     "optional": null
+    },
+    {
+     "name": "",
+     "width": 281.62292,
+     "height": 161.48572,
+     "description": "",
+     "mods": [
+      {
+       "ability_id": 1414025773,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 3731635960,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 3270001687,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      }
+     ],
+     "optional": true
+    },
+    {
+     "name": "",
+     "width": 555.0,
+     "height": 157.0,
+     "description": "",
+     "mods": [
+      {
+       "ability_id": 2059712766,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 1252627263,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 2163598980,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 1371725689,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 3491236900,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 1955841979,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      }
+     ],
+     "optional": true
+    },
+    {
+     "name": "",
+     "width": 475.0,
+     "height": 156.0,
+     "description": "",
+     "mods": [
+      {
+       "ability_id": 1193964439,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 630839635,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 2417568017,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 2533252781,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      },
+      {
+       "ability_id": 343572757,
+       "annotation": null,
+       "required_flex_slots": null,
+       "sell_priority": null,
+       "imbue_target_ability_id": null
+      }
+     ],
+     "optional": true
+    }
+   ],
+   "ability_order": {
+    "currency_changes": [
+     {
+      "ability_id": 2824119765,
+      "currency_type": 2,
+      "delta": 0,
+      "annotation": null
+     },
+     {
+      "ability_id": 715762406,
+      "currency_type": 2,
+      "delta": 0,
+      "annotation": null
+     },
+     {
+      "ability_id": 715762406,
+      "currency_type": 1,
+      "delta": -1,
+      "annotation": null
+     },
+     {
+      "ability_id": 4072270083,
+      "currency_type": 2,
+      "delta": 0,
+      "annotation": null
+     },
+     {
+      "ability_id": 2824119765,
+      "currency_type": 1,
+      "delta": -1,
+      "annotation": null
+     },
+     {
+      "ability_id": 509856396,
+      "currency_type": 2,
+      "delta": 0,
+      "annotation": null
+     },
+     {
+      "ability_id": 2824119765,
+      "currency_type": 1,
+      "delta": -2,
+      "annotation": null
+     },
+     {
+      "ability_id": 4072270083,
+      "currency_type": 1,
+      "delta": -1,
+      "annotation": null
+     },
+     {
+      "ability_id": 4072270083,
+      "currency_type": 1,
+      "delta": -2,
+      "annotation": null
+     },
+     {
+      "ability_id": 4072270083,
+      "currency_type": 1,
+      "delta": -5,
+      "annotation": null
+     },
+     {
+      "ability_id": 2824119765,
+      "currency_type": 1,
+      "delta": -5,
+      "annotation": null
+     },
+     {
+      "ability_id": 715762406,
+      "currency_type": 1,
+      "delta": -2,
+      "annotation": null
+     },
+     {
+      "ability_id": 715762406,
+      "currency_type": 1,
+      "delta": -5,
+      "annotation": null
+     },
+     {
+      "ability_id": 509856396,
+      "currency_type": 1,
+      "delta": -1,
+      "annotation": null
+     },
+     {
+      "ability_id": 509856396,
+      "currency_type": 1,
+      "delta": -2,
+      "annotation": null
+     }
+    ]
+   }
+  }
+ },
+ "num_favorites": null,
+ "num_ignores": null,
+ "num_reports": null,
+ "num_weekly_favorites": 7187,
+ "rollup_category": 3
+}

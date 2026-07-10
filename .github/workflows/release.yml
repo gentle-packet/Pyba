@@ -1,0 +1,74 @@
+name: release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # EOS_REPO / EOS_REPO_TOKEN are only set where the engine checkout
+      # needs to differ from the public default
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ vars.EOS_REPO || 'gentle-packet/deadlock-eos' }}
+          token: ${{ secrets.EOS_REPO_TOKEN || github.token }}
+          path: deadlock-eos
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install
+        run: pip install ./deadlock-eos ".[dev]" "pyinstaller>=6.11"
+
+      - name: Check tag matches package version
+        shell: pwsh
+        run: |
+          $v = python -c "import pyba; print(pyba.__version__)"
+          $t = "$env:GITHUB_REF_NAME".TrimStart("v")
+          if ($t -ne $v) { Write-Error "tag $t != pyba version $v" }
+
+      - name: Engine tests
+        run: python -m pytest deadlock-eos/tests
+
+      - name: App tests
+        run: python -m pytest
+        env:
+          QT_QPA_PLATFORM: offscreen
+          # non-editable install: the dev sibling-path fallback can't resolve
+          DEADLOCK_EOS_DATA: ${{ github.workspace }}\deadlock-eos\data\dumps
+
+      - name: Build
+        run: pyinstaller pyba.spec --noconfirm
+        env:
+          PYBA_DUMPS_SRC: ${{ github.workspace }}\deadlock-eos\data\dumps
+
+      - name: Smoke test frozen exe
+        shell: pwsh
+        run: |
+          $env:QT_QPA_PLATFORM = "offscreen"
+          $env:PYBA_SMOKE_TEST = "1"
+          # isolated APPDATA proves the bundled dumps are found, not an ambient dir
+          $env:APPDATA = "$env:RUNNER_TEMP\smoke-appdata"
+          New-Item -ItemType Directory -Force $env:APPDATA | Out-Null
+          # windowed exe: PowerShell won't wait or set $LASTEXITCODE without Start-Process
+          $p = Start-Process -FilePath "dist\Pyba\Pyba.exe" -Wait -PassThru
+          if ($p.ExitCode -ne 0) { Write-Error "smoke test failed: exit $($p.ExitCode)" }
+
+      - name: Zip
+        shell: pwsh
+        run: |
+          $t = "$env:GITHUB_REF_NAME".TrimStart("v")
+          Compress-Archive -Path dist\Pyba -DestinationPath "Pyba-$t-win64.zip"
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: Pyba-*.zip
+          body: Initial release
